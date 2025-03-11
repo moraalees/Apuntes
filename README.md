@@ -40,6 +40,40 @@ class Persona(val nombre: String, val edad: Int) {
 
 ### 📌 **2. Constructor Secundario**
 
+import java.time.LocalDateTime = Fecha Actual
+val fecha: LocalDateTime = LocalDateTime.now()
+
+#### **EJEMPLO DOCUMENTACION**
+```
+/**
+ * Clase abstracta que representa una carta genérica.
+ *
+ * Esta clase define las propiedades y comportamientos básicos de una carta,
+ * y está diseñada para ser heredada por tipos específicos de cartas.
+ *
+ * @property id Identificador único de la carta.
+ * @property nombre Nombre de la carta.
+ * @property descripcion Descripción detallada de la carta.
+ * @property especialidad Puntos de especialidad de la carta, que pueden representar
+ *                        habilidades, poder, o cualquier otro atributo específico.
+ *
+ * @see Accionable Interface o clase que define acciones que la carta puede realizar.
+
+PARA DESCRIBIR LA CLASE
+ */
+
+/**
+     * Devuelve una representación en formato de cadena de la carta.
+     *
+     * Este método sobrescribe la función `toString()` de la clase `Any` para proporcionar
+     * una descripción detallada de la carta.
+     *
+     * @return Una cadena que describe la carta, incluyendo su ID, nombre, descripción y puntos de especialidad.
+     */
+
+DESCRIBIR MÉTODO DE LA CLASE
+```
+
 Sirve para ofrecer inicializaciones alternativas y se define con `constructor`.
 
 **Ejemplo:**
